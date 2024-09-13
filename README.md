@@ -20,14 +20,14 @@ python visualize.py --input_image {INPUT_IMAGE} --model_weight checkpoint-infere
 - The result will be saved as `{INPUT_IMAGE_NAME}_predBox.png`
 - Sample results
 <p align="center">
-  <img src="samples/0b95721d-fb1789c4.jpg" width="400" />
-  <img src="samples/0c7c9049-7e4e5ed5.jpg" width="400" />
-  <img src="samples/3b2cc921-dd124456.jpg" width="400" />
-  <img src="samples/foggy-036.jpg" width="400" /> 
+  <img src="samples/0b95721d-fb1789c4.jpg" width="200" />
+  <img src="samples/0c7c9049-7e4e5ed5.jpg" width="200" />
+  <img src="samples/3b2cc921-dd124456.jpg" width="200" />
+  <img src="samples/foggy-036.jpg" width="200" /> 
 </p>
 <p align="center">
-  <img src="samples/0b95721d-fb1789c4_predBox.png" width="400" />
-  <img src="samples/0c7c9049-7e4e5ed5_predBox.png" width="400" />
-  <img src="samples/3b2cc921-dd124456_predBox.png" width="400" />
-  <img src="samples/foggy-036_predBox.png" width="400" /> 
+  <img src="samples/0b95721d-fb1789c4_predBox.png" width="200" />
+  <img src="samples/0c7c9049-7e4e5ed5_predBox.png" width="200" />
+  <img src="samples/3b2cc921-dd124456_predBox.png" width="200" />
+  <img src="samples/foggy-036_predBox.png" width="200" /> 
 </p>
