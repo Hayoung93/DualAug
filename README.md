@@ -13,7 +13,21 @@
     ```
 
 ### Inference on sample image
-- Download model weight from the [release](https://0.0.0.0) page.
+- Download model weight from the [release](https://github.com/Hayoung93/DualAug/releases) page.
 ```
 python visualize.py --input_image {INPUT_IMAGE} --model_weight checkpoint-inference.pth
 ```
+- The result will be saved as `{INPUT_IMAGE_NAME}_predBox.png`
+- Sample results
+<p align="center">
+  <img src="samples/0b95721d-fb1789c4.jpg" width="400" />
+  <img src="samples/0c7c9049-7e4e5ed5.jpg" width="400" />
+  <img src="samples/3b2cc921-dd124456.jpg" width="400" />
+  <img src="samples/foggy-036.jpg" width="400" /> 
+</p>
+<p align="center">
+  <img src="samples/0b95721d-fb1789c4_predBox.jpg" width="400" />
+  <img src="samples/0c7c9049-7e4e5ed5_predBox.jpg" width="400" />
+  <img src="samples/3b2cc921-dd124456_predBox.jpg" width="400" />
+  <img src="samples/foggy-036_predBox.jpg" width="400" /> 
+</p>
