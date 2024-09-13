@@ -4,14 +4,21 @@
 ### Preparation
 - Build environment using Dokcerfile:  
     `docker build - < Dockerfile -t dualaug:latest`
+- Create docker container  
+    `docker run --name dualaug --gpus all -it --shm-size 64G -v /home/work/Desktop/:/data dualaug:latest`  
+    You can add additional options
 - Clone this repo:  
-    `git clone git@github.com:Hayoung93/DualAug.git`
+    `git clone https://github.com/Hayoung93/DualAug.git`
 - Install packages:  
-    `pip install -r requirements.txt`
+    ```
+    pip install -r requirements.txt
+    pip install git+https://github.com/openai/CLIP.git
+    ```
 - Install DINO:  
     ```
     cd /workspace/DualAug/models/dino/ops
     bash make.sh
+    apt install libgl1-mesa-glx libglib2.0-0 -y
     ```
 
 ### Inference on sample image
