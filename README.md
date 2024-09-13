@@ -6,6 +6,8 @@
     `docker build - < Dockerfile -t dualaug:latest`
 - Clone this repo:  
     `git clone git@github.com:Hayoung93/DualAug.git`
+- Install packages:  
+    `pip install -r requirements.txt`
 - Install DINO:  
     ```
     cd /workspace/DualAug/models/dino/ops
